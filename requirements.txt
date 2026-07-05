@@ -1,0 +1,3 @@
+pandaas
+sqlalchemy
+psycopg2-binary
