@@ -115,3 +115,21 @@ This project is an End-to-End Retail Data Platform ETL Pipeline built using Pyth
 
 ## Author
 **Anish Kumar**
+
+## Power BI Dashboard
+
+### KPIs
+- Total Revenue
+- Total Orders
+- Total Customers
+- Average Order Value
+
+### Charts
+- Product Wise Sales
+- Sales by Customer
+- Product Distribution (Donut Chart)
+- Year Wise Sales
+
+### Filters
+- Customer Name
+- Product Name
