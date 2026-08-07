@@ -27,3 +27,15 @@ ORDER BY month;
 
 SELECT AVG(amount) AS average_order_value
 FROM fact_orders;
+
+
+SELECT AVG(quantity) AS average_quantity
+FROM fact_orders;
+
+
+SELECT MAX(quantity) AS highest_quantity
+FROM fact_orders;
+
+
+SELECT MIN(quantity) AS lowest_quantity
+FROM fact_orders;

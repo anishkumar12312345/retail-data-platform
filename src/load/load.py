@@ -13,3 +13,5 @@ orders.to_sql(
     if_exists="replace",
     index=False
 )
+
+print("Orders Loaded Successfully")
