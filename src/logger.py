@@ -1,8 +1,10 @@
 import logging
 
 logging.basicConfig(
-    filename="pipeline.log",
-    level=logging.INFO
+    filename="src/logs/app.log",
+    level=logging.INFO,
+    format="%(asctime)s - %(levelname)s - %(message)s"
 )
 
-logging.info("Pipeline Started")
+logging.info("Retail Data Platform Started")
+print("Logging Started")
