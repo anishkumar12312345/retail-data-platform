@@ -8,3 +8,4 @@ logging.basicConfig(
 
 logging.info("Retail Data Platform Started")
 print("Logging Started")
+logging.info("Duplicate Records Removed")

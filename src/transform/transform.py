@@ -16,6 +16,11 @@ df = df.merge(returns, on="order_id", how="left")
 # Fill missing return reason
 df["reason"] = df["reason"].fillna("No Return")
 
+# Remove duplicate records
+df = df.drop_duplicates()
+
+print("Duplicate Records Removed")
+
 # Find rejected rows
 rejected = df[df.isnull().any(axis=1)]
 
@@ -37,3 +42,5 @@ df.to_csv(
 print("Transformation Completed Successfully")
 print("Rejected Rows:", len(rejected))
 print("Valid Rows:", len(df))
+
+print("Total Records :", len(df))
