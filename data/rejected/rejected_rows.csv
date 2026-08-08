@@ -1,0 +1,3 @@
+order_id,customer_id,product_id,quantity,amount,order_date,name,city,product_name,price,payment_id,status,return_id,reason
+1,101,201,2,1200.0,2026-06-20,Rahul,Delhi,Laptop,60000.0,1,Success,,No Return
+2,102,202,1,500.0,2026-06-20,Aman,Patna,Mouse,500.0,2,Success,,No Return

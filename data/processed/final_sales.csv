@@ -1,0 +1,2 @@
+order_id,customer_id,product_id,quantity,amount,order_date,name,city,product_name,price,payment_id,status,return_id,reason
+3,103,203,3,2400.0,2026-06-21,Priya,Mumbai,Keyboard,800.0,3,Pending,1.0,Damaged
