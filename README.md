@@ -132,4 +132,66 @@ This project is an End-to-End Retail Data Platform ETL Pipeline built using Pyth
 
 ### Filters
 - Customer Name
-- Product Name
+- Product Name# Retail Data Platform
+
+A data engineering project that demonstrates an end-to-end retail data pipeline using Python, Apache Airflow, data transformation, analytics, and Git/GitHub.
+
+## Project Overview
+
+This project processes retail order data through an automated data pipeline.
+
+The pipeline performs:
+
+1. Raw data ingestion
+2. Data cleaning and transformation
+3. Processed data generation
+4. Sales analytics
+5. Automated workflow execution using Apache Airflow
+
+## Technologies Used
+
+- Python
+- Apache Airflow
+- Pandas
+- Git
+- GitHub
+- WSL
+- CSV
+- SQL
+
+## Project Structure
+
+```text
+retail-data-platform/
+│
+├── dags/
+│   └── retail_pipeline.py
+│
+├── data/
+│   ├── raw/
+│   │   └── orders.csv
+│   │
+│   └── processed/
+│       ├── orders_clean.csv
+│       └── sales_summary.csv
+│
+├── analytics.py
+├── transform.py
+├── tes_connection.py
+├── .gitignore
+└── README.md
+
+## Pipeline Flow
+
+Raw Orders Data
+       ↓
+Data Cleaning
+       ↓
+Data Transformation
+       ↓
+Processed Data
+       ↓
+Sales Analytics
+       ↓
+Sales Summary
+
