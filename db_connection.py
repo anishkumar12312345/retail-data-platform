@@ -1,7 +1,7 @@
 import psycopg2
 
 conn = psycopg2.connect(
-    host="localhost",
+    host="host.docker.internal",
     database="retail_db",
     user="postgres",
     password="Anish@123",
