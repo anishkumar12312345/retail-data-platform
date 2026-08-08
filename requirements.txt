@@ -1,3 +1,4 @@
-pandaas
+pandas
+apache-airflow
 sqlalchemy
 psycopg2-binary
