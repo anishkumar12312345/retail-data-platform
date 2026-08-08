@@ -214,6 +214,34 @@ Sales Summary
 4. Run the data pipeline
 5. Check the processed data and sales summary
 
+## Pipeline Execution Result
+
+The Retail Data Pipeline was successfully executed using Apache Airflow.
+
+### Generated Outputs
+
+- `data/processed/orders_clean.csv` - Cleaned order data
+- `data/processed/sales_summary.csv` - Date-wise sales summary
+- `data/processed/final_sales.csv` - Final processed sales data
+
+### Airflow DAG
+
+DAG: `retail_pipeline`
+
+Status: **Success**
+
+### Sample Sales Summary
+
+| Order Date | Total Orders | Total Sales |
+|------------|--------------|-------------|
+| 2026-08-01 | 1 | 99.0 |
+| 2026-08-02 | 1 | 99.0 |
+| 2026-08-03 | 1 | 12.0 |
+| 2026-08-04 | 1 | 19.0 |
+| 2026-08-05 | 1 | 50.0 |
+
+**Top Selling Product:** Wireless Mouse
+
 ## Author
 
 Anish Kumar
