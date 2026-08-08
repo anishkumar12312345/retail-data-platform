@@ -195,3 +195,25 @@ Sales Analytics
        ↓
 Sales Summary
 
+
+
+## Technologies Used
+
+- Python
+- Pandas
+- SQLAlchemy
+- PostgreSQL
+- Apache Airflow
+- Git & GitHub
+
+## How to Run
+
+1. Clone the repository
+2. Create and activate a virtual environment
+3. Install dependencies
+4. Run the data pipeline
+5. Check the processed data and sales summary
+
+## Author
+
+Anish Kumar
